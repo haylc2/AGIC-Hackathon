@@ -2,7 +2,7 @@
 
 A portfolio website template for campers
 
-![jane-doe](jane-shot.png)
+![me-photo](taylor.jpg)
 
 ## Author
 
