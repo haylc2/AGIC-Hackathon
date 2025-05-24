@@ -6,9 +6,9 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
+  --bg-color: #a4bdae;
+  --primary-color: #304529;
+  --secondary-color: #265e91;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -45,6 +45,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: var(--bg-color);
 }
 
 section {
