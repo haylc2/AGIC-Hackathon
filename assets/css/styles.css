@@ -6,11 +6,11 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #a4bdae;
-  --primary-color: #304529;
-  --secondary-color: #265e91;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --bg-color: #eeeeee;
+  --primary-color: #0d3589;
+  --secondary-color: #9b9aa3;
+  --primary-shadow: #c1c3bf;
+  --secondary-shadow: #0284c3;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -236,7 +236,7 @@ nav ul li {
 .contact-form-container label {
   line-height: 2.7em;
   font-weight: var(--bold-font);
-  color: var(--primary-color);
+  color: var(--primary-shadow);
 }
 
 .contact-form-container textarea {
@@ -253,6 +253,7 @@ nav ul li {
   border: 2px outset var(--primary-color);
   font-size: 0.875rem;
   outline: none;
+  background-color: var(--primary-shadow);
 }
 
 .input-field::placeholder {
@@ -264,7 +265,7 @@ nav ul li {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #fff;
+  background-color: var(--primary-shadow);
   border: 2px solid var(--primary-color);
   border-radius: 5px;
   font-size: 1rem;
@@ -290,7 +291,7 @@ footer {
 
 /* General (utilities) */
 .icon-card {
-  background-color: #fff;
+  background-color: var(--primary-shadow);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
@@ -298,7 +299,7 @@ footer {
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: var(--primary-shadow);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
